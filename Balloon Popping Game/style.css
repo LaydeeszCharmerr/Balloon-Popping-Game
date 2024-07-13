@@ -64,11 +64,11 @@ h1{
 }
 
 #balloon-gallery div:nth-child(4n){
-    clear:right;
+    c.lear:right;
 }
 
 #yay-no-balloons {
     display:none;
     color:#ff3300;
     font-size:100px;
-}
+}.
