@@ -4,11 +4,7 @@ document.addEventListener('mouseover', function(e){
     
     if (e.target.className === "balloon"){
         
-                e.target.style.backgroundColor = "#ededed";
-                e.target.textContent = "POP!";
-                popped++;
-                removeEvent(e);
-                checkAllPopped();
+               
     }   
 });
 
@@ -27,3 +23,4 @@ function checkAllPopped(){
         message.style.display = 'block';
     }
 };
+
